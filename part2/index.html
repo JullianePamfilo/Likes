@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>likes2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="nav1">
+            <h1>Network</h1>
+            <h2 id="header-h2">Your Feed</h2>
+    </div>
+    
+    <div class="nav2">
+        <div class="container1">           
+            <div id="profile-card">
+                <img src="imgs/user-circle copy.png" alt="Profile avatar">
+                <p><a href="#">Add an Avatar</a></p>
+                <h3>James Doe</h3>
+            </div>
+        </div>
+        
+        <div class="container2">
+            <div class="user-card">
+                <div class="user-card-header">
+                    <h2>Neil M</h2>
+                    <p id="click">9 like(s)</p>
+                    <button class="likes" onclick="add1(this)">Like</button>
+                </div>
+                <div class="user-card-body">
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+            </div>
+            
+            <div class="user-card">
+                <div class="user-card-header">
+                    <h2>Nichole K</h2>
+                    <p id="click2">12 like(s)</p>
+                    <button class="likes" onclick="add2(this)">Like</button>
+                </div>
+                <div class="user-card-body">
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+            </div>
+            
+            <div class="user-card">
+                <div class="user-card-header">
+                    <h2>Jim R</h2>
+                    <p id="click3">9 like(s)</p>
+                    <button class="likes" onclick="add3()">Like</button>
+                </div>
+                <div class="user-card-body">
+                    <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

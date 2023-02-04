@@ -1,0 +1,26 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.user-card {
+border: 2px solid black;
+width: 500px;
+ margin: 30px 60px;
+}
+.user-card-header {
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+}
+.likes {
+background-color:rgb(248, 227, 90);
+width: 60px;
+border: 2px solid black;
+box-shadow: 2px 2px black;
+}
+user-card-body {
+width: 90%;
+margin: 15px;
+}
